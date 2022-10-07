@@ -1,0 +1,10 @@
+services:
+  pymagnitude:
+    container_name: pymagnitude
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./":/workdir
+    working_dir: /workdir

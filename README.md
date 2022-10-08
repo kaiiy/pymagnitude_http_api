@@ -2,5 +2,5 @@
 
 ```sh
 $ curl -X POST -H "Content-Type: application/json" \
-    -d '{"words": ["好き", "だ", "食べ物", "は", "林檎"]}' localhost:8080
+    -d '{"words": ["好き", "だ", "食べ物", "は", "林檎"]}' localhost:45200
 ```

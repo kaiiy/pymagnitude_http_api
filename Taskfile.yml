@@ -3,7 +3,13 @@ version: 3
 silent: true
 
 tasks:
+  setup:
+    cmds:
+      - docker compose build
   run:
     cmds:
       - docker compose up -d
+  kill:
+    cmds:
+      - docker compose down
   

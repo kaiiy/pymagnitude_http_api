@@ -2,7 +2,7 @@ FROM python:3.9-bullseye
 
 RUN pip3 install pymagnitude
 
-RUN pip3 install fastapi uvicorn
+RUN pip3 install fastapi uvicorn scikit-learn POT
 
 EXPOSE 45200
 
